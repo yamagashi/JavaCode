@@ -7,7 +7,7 @@
 <title>サンプルアプリ</title>
 </head>
 <body>
-<p>ようこそ{ユーザーID}さん</p>
+<p>ようこそ<c:out value="${userId}" />さん</p>
 <a href="/sample/WelcomeServlet">トップへ</a>
 
 </body>
