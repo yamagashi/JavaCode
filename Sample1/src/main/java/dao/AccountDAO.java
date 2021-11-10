@@ -11,9 +11,9 @@ import model.Login;
 
 public class AccountDAO {
 //データベース接続使用する情報
-	private final String JDBC_URL = "jdbc:mariadb://localhost/sampledb";
-	private final String DB_USER = "";
-	private final String DB_PASS = "";
+	private final String JDBC_URL = "jdbc:mariadb://localhost:3306/sampledb";
+	private final String DB_USER = "root";
+	private final String DB_PASS = "root";
 
 	public Account findByLogin(Login login) {
 		Account account = null;
